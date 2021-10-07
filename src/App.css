@@ -1,38 +1,25 @@
 .App {
   text-align: center;
+  background-image: url('./assets/joker-2019-joaquin-phoenix-movie-art-uhdpaper.com-4K-3.1250-wp.thumbnail.jpg') center center no-repeat;
+  background: rgb(198, 198, 209);
+  height: 80vh;
+  padding: 0 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.slider{
+  margin-top: 0;
+  background: rgb(53, 53, 53);
+  color: rgb(175, 175, 175);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.slider h1{
+  margin-top: 0;
+  padding: 2rem 0 0 2rem;
+  margin-right: 1rem;
+  display: inline-block;
 }

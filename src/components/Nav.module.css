@@ -1,0 +1,33 @@
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav > div > h1{
+  display: inline-block;
+}
+
+.nav > div > span{
+  font-size: 2rem;
+}
+
+.list{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list li{
+  margin: 0 1rem;
+  transition: all .3s ease;
+  padding: .5rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.list li:hover{
+  background: black;
+  color: white;
+}
